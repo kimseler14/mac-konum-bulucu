@@ -22,4 +22,4 @@ conn.request("POST", "/geolocation/v1/geolocate?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU
 res = conn.getresponse()
 data = res.read()
 
-print(data.decode("utf-8")["location"]["lat"])
+print(data.decode("utf-8"))
